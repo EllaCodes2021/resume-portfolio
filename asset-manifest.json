@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/resume-portfolio/static/css/main.50ea9d9c.css",
+    "main.js": "/resume-portfolio/static/js/main.9c7bc169.js",
+    "static/js/787.acc5f817.chunk.js": "/resume-portfolio/static/js/787.acc5f817.chunk.js",
+    "static/media/My-SRQ-Sunset_adobespark.png": "/resume-portfolio/static/media/My-SRQ-Sunset_adobespark.e6f1eb177f3d9220f7ec.png",
+    "static/media/AtAnime.png": "/resume-portfolio/static/media/AtAnime.d4d418759ac35d207913.png",
+    "static/media/Ella-Microsoft-photo_adobespark.png": "/resume-portfolio/static/media/Ella-Microsoft-photo_adobespark.dccb0460f4dfc9a1c703.png",
+    "static/media/Concierge-mini.png": "/resume-portfolio/static/media/Concierge-mini.f471e02095c68ac013d6.png",
+    "static/media/Runbuddy-Demo.png": "/resume-portfolio/static/media/Runbuddy-Demo.cb79c0e83723f141629b.png",
+    "static/media/Employee-tracker.png": "/resume-portfolio/static/media/Employee-tracker.f837f21900e5049c6870.png",
+    "static/media/plenty-o-coders.png": "/resume-portfolio/static/media/plenty-o-coders.0bbc8634b477509ca6a7.png",
+    "index.html": "/resume-portfolio/index.html",
+    "main.50ea9d9c.css.map": "/resume-portfolio/static/css/main.50ea9d9c.css.map",
+    "main.9c7bc169.js.map": "/resume-portfolio/static/js/main.9c7bc169.js.map",
+    "787.acc5f817.chunk.js.map": "/resume-portfolio/static/js/787.acc5f817.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50ea9d9c.css",
+    "static/js/main.9c7bc169.js"
+  ]
+}
