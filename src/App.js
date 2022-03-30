@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import NavTabs from './components/NavTabs';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
+import Footer from './pages/Footer'
+import './index.css'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    const [pageChoice, setPageChoice] = useState('About');
+    return(
+        <div>
+            <NavTabs 
+            pageChoice={pageChoice}
+            setPageChoice={setPageChoice} />
+            <main>
+            {pageChoice == 'About' ? (<About />):('')}
+            {pageChoice == 'Resume' ? (<Resume />):('')}
+            {pageChoice == 'Projects' ? (<Projects />):('')}
+            </main>
+        </div>
   );
 }
 
